@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+#hor-zebra
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	border-collapse: collapse;
+	border: 1px solid #69c;
+}
+#hor-zebra th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 8px;
+	color: #039;
+}
+#hor-zebra td
+{
+	padding: 8px;
+	color: #669;
+}
+#hor-zebra .odd
+{
+	background: #e8edff; 
+}
+
+
+
+
+
+
+#newspaper-b{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	border: 1px solid #69c;
+}
+
+#newspaper-b th
+{
+	padding: 15px 10px 10px 10px;
+	font-weight: normal;
+	font-size: 14px;
+	color: #039;
+}
+#newspaper-b tbody
+{
+	background: #e8edff;
+}
+#newspaper-b td
+{
+	padding: 10px;
+	color: #669;
+	border-top: 1px dashed #fff;
+}
+#newspaper-b tbody tr:hover td
+{
+	color: #339;
+	background: #d0dafd;
+}
+
+</style>
+
+
+
+
+</head>
+
+<body>
+<table id="hor-zebra" summary="Employee Pay Sheet">
+    <thead>
+    	<tr>
+        	<th scope="col"><input type="checkbox" /> </th>
+        	<th scope="col">Employee</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Bonus</th>
+            <th scope="col">Supervisor</th>
+        </tr>
+    </thead>
+    <tbody>
+    	<tr class="odd">
+        	<td><input type="checkbox" /></td>
+        	<td>Stephen C. Cox</td>
+            <td>$300</td>
+            <td>$50</td>
+            <td>Bob</td>
+        </tr>
+        <tr>
+        	<td><input type="checkbox" /></td>
+        	<td>Josephin Tan</td>
+            <td>$150</td>
+            <td>-</td>
+            <td>Annie</td>
+        </tr>
+        <tr class="odd">
+        	<td><input type="checkbox" /></td>
+        	<td>Joyce Ming</td>
+            <td>$200</td>
+            <td>$35</td>
+            <td>Andy</td>
+        </tr>
+        <tr>
+        	<td><input type="checkbox" /></td>
+        	<td>James A. Pentel</td>
+            <td>$175</td>
+            <td>$25</td>
+            <td>Annie</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+<div>
+<table id="newspaper-b" summary="2007 Major IT Companies' Profit">
+    <thead>
+    	<tr>
+        	<th scope="col">Company</th>
+            <th scope="col">Q1</th>
+            <th scope="col">Q2</th>
+            <th scope="col">Q3</th>
+            <th scope="col">Q4</th>
+        </tr>
+    </thead>
+        <tfoot>
+    	<tr>
+        	<td colspan="5"><em>The above data were fictional and made up, please do not sue me</em></td>
+        </tr>
+    </tfoot>
+    <tbody>
+    	<tr>
+        	<td>Microsoft</td>
+            <td>20.3</td>
+            <td>30.5</td>
+            <td>23.5</td>
+            <td>40.3</td>
+        </tr>
+        <tr>
+        	<td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+        </tr>
+        <tr>
+        	<td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+        </tr>
+        <tr>
+        	<td>IBM</td>
+            <td>20.4</td>
+            <td>15.6</td>
+            <td>22.3</td>
+            <td>29.3</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</body>
+</html>

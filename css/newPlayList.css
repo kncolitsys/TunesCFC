@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+#newPlayListMainContainer{
+	padding:20px;
+	text-align:center;
+}
+
+.labelText{
+	font-weight:bold;
+	color:#505C6B;
+	font-size:11px;
+	font-family:arial,helvetica,verdana;
+}
+
+
+ul.niceList a{
+	text-decoration:none;
+	color:#73ADC8;
+	font-size:10px;
+}
+
+   
+ul.niceList {
+	margin-left:0em;
+	padding-left:0.2em;
+	margin-bottom:1em;
+
+}
+
+ul.niceList li {
+	background:url(../icons/bullet_red.png) 0px 0px no-repeat; /* change background em accordingly */
+	padding-left: 1.5em;
+	list-style: none;
+}
+
+ul.niceListMoods li {
+	background:url(../icons/bullet_blue.png) 0px 0px no-repeat; /* change background em accordingly */
+	padding-left: 1.5em;
+	list-style: none;
+}
+
+
+.niceList ul li {/*  background-image:url(../icons/bullet_red.png);  */}
+
+
+
+ol.niceList li, ul.niceList li { margin-bottom:0.5em; }
+
+
+
+ol.niceList {
+	margin-left:1.5em;
+	padding-left:0px;
+
+}
+
+.niceList ol li {
+list-style:decimal;
+background-image:none;
+padding-left:0em;
+}
+

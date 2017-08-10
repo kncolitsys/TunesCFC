@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+a img {
+border: none;
+}
+
+
+.playerDivContainer{
+	position: fixed;
+	top:300px;
+	left: -782px;
+
+}
+
+
+.playerTdMain{
+	width:782px;
+	background-image:url(../img/player_slice_main.png);
+	background-repeat:repeat-x;
+
+}
+
+.playerTableMain{
+	width:800px;
+	height:57px;
+}
+
+.playlistMain{
+	height:186px;
+	background-image:url(../img/playListSlice.png);
+	background-repeat:repeat-x;
+}
+
+
+
+.songScrollerMainCointainer{
+	float:right;
+	margin-right:33px;
+}
+
+.songScrollerMain{
+	background-image:url(../img/song_scroller_main.png);
+	background-repeat:repeat-x;
+	height:40px;
+	width:334px;
+	font-size:11px;
+	color:#036;
+}
+
+.playlistMainContainerTable{
+	width:344px;
+	margin-left:400px;
+}
+
+#currentPlaylistOnButton{
+	margin-left:545px;
+	z-index:50;
+}
+
+#tickfield{
+	width:300px;
+	text-align:center;
+}
+#songList{
+	margin-top:0px;	
+}
+
+#songList a{
+	text-decoration:none;
+	font-size:11px;
+	color:#036;
+}
+
+.currentPlaylistSongList{
+	margin-top:0px;
+	
+}
+.currentPlaylistSongList a{
+	text-decoration:none;
+	font-size:11px;
+	color:#036;
+}

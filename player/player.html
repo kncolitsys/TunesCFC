@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="../css/player.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/prototype.js"></script>
+<script type="text/javascript" src="../js/scriptaculous.js"></script>
+<script type="text/javascript" src="../js/playerAnimation.js"></script>
+
+</head>
+<body>
+
+        <div class="playerDivContainer">
+           <div id="mainPlayer">
+               
+           		<div>
+                    <table class="playerTableMain" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td><img src="../img/player_slice_left.png" /></td>
+                            <td class="playerTdMain">
+                            	<!-- Player Main Buttons Goes Here -->
+                                <div class="songScrollerMainCointainer">
+                                	<table cellpadding="0" cellspacing="0" border="0">
+                                    	<tr>
+                                        	<td>
+                                            	<!-- Buttons will go here -->
+                                                	<a href="#"><img src="../img/rewind.png"  /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <a href="#"><img src="../img/play.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <a href="#"><img src="../img/forward.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            	<!-- Button ends here -->
+                                            </td>
+                                        	<td>                    	
+                                    			<table cellspacing="0" cellpadding="0">
+                                        	<tr>
+                                            	<td><img src="../img/song_scroller_left.png" /></td>
+                                                <td>
+                                                	<div class="songScrollerMain">
+                                                		<!-- Content for song scroller goes here -->
+															<table>
+                                                            	<tr>
+                                                                    <td>
+                                                                    	<div style="width:300px;text-align:center" id="tickfield"></div>
+                                                                    	<script language="javascript">textticker();</script>
+                                                                    </td>
+                                                                    <td valign="middle"><img src="../img/musicIcon_small.png" /></td>
+                                                                </tr>
+                                                            </table>
+                                                        <!-- Content for song scroller ends here -->
+                                                	</div>
+                                                 </td>
+                                                <td><img src="../img/song_scroller_right.png" /></td>
+                                            </tr>
+                                        </table>
+                                			</td>
+                                        </tr>
+                                    </table>
+                                </div>
+           							 
+ 								<!-- player Buttons ends here -->                           
+                            </td>
+                            <td><a href="#" id="playerLink" onclick="javascript:moveOut()"><img id="playerLinkImg" src="../img/player_slice_right_in.png" /></a></td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style="display:block;"  id="currentPlaylistOnButton"><a href="#" id="playListLink" onclick="javascript:playlistGrowUp()"><img id="playlistImageLink" src="../img/Playlist_button_slide_down.png" /></a></div>
+					<div style="display:none;" id="currentPlaylist">
+                    <table cellpadding="0" cellspacing="0" border="0"  class="playlistMainContainerTable">                
+
+						<tr>
+                        	<td valign="top" style="overflow:hidden">
+                                <div class="playlistMain">
+                                	
+                                    <ul id="songList">
+				
+					<li id="song_1_01 Somewhere I Belong.mp3_mp3/Linkin Park/Meteora/01 Somewhere I Belong.mp3"><a onclick="playMe('song_1_01 Somewhere I Belong.mp3_mp3/Linkin Park/Meteora/01 Somewhere I Belong.mp3')" href="#">01 Somewhere I Belong.mp3</a></li>
+				
+					<li id="song_2_04 Lying From You.mp3_mp3/Linkin Park/Meteora/04 Lying From You.mp3"><a onclick="playMe('song_2_04 Lying From You.mp3_mp3/Linkin Park/Meteora/04 Lying From You.mp3')" href="#">04 Lying From You.mp3</a></li>
+				
+					<li id="song_3_05 Hit The Floor.mp3_mp3/Linkin Park/Meteora/05 Hit The Floor.mp3"><a onclick="playMe('song_3_05 Hit The Floor.mp3_mp3/Linkin Park/Meteora/05 Hit The Floor.mp3')" href="#">05 Hit The Floor.mp3</a></li>
+				
+					<li id="song_4_06 Easier To Run.mp3_mp3/Linkin Park/Meteora/06 Easier To Run.mp3"><a onclick="playMe('song_4_06 Easier To Run.mp3_mp3/Linkin Park/Meteora/06 Easier To Run.mp3')" href="#">06 Easier To Run.mp3</a></li>
+				
+					<li id="song_5_08 Figure.09.mp3_mp3/Linkin Park/Meteora/08 Figure.09.mp3"><a onclick="playMe('song_5_08 Figure.09.mp3_mp3/Linkin Park/Meteora/08 Figure.09.mp3')" href="#">08 Figure.09.mp3</a></li>
+				
+					<li id="song_6_09 Breaking The Habit.mp3_mp3/Linkin Park/Meteora/09 Breaking The Habit.mp3"><a onclick="playMe('song_6_09 Breaking The Habit.mp3_mp3/Linkin Park/Meteora/09 Breaking The Habit.mp3')" href="#">09 Breaking The Habit.mp3</a></li>
+				
+					<li id="song_7_10 From The Inside.mp3_mp3/Linkin Park/Meteora/10 From The Inside.mp3"><a onclick="playMe('song_7_10 From The Inside.mp3_mp3/Linkin Park/Meteora/10 From The Inside.mp3')" href="#">10 From The Inside.mp3</a></li>
+				
+					<li id="song_8_11 Nobody's Listening.mp3_mp3/Linkin Park/Meteora/11 Nobody's Listening.mp3"><a onclick="playMe('song_8_11 Nobody's Listening.mp3_mp3/Linkin Park/Meteora/11 Nobody's Listening.mp3')" href="#">11 Nobody's Listening.mp3</a></li>
+				
+					<li id="song_9_12 Session.mp3_mp3/Linkin Park/Meteora/12 Session.mp3"><a onclick="playMe('song_9_12 Session.mp3_mp3/Linkin Park/Meteora/12 Session.mp3')" href="#">12 Session.mp3</a></li>
+				
+					<li id="song_10_13 Numb.mp3_mp3/Linkin Park/Meteora/13 Numb.mp3"><a onclick="playMe('song_10_13 Numb.mp3_mp3/Linkin Park/Meteora/13 Numb.mp3')" href="#">13 Numb.mp3</a></li>
+				
+					<li id="song_11_Don't Stay.mp3_mp3/Linkin Park/Meteora/Don't Stay.mp3"><a onclick="playMe('song_11_Don't Stay.mp3_mp3/Linkin Park/Meteora/Don't Stay.mp3')" href="#">Don't Stay.mp3</a></li>
+				
+					<li id="song_12_Faint.mp3_mp3/Linkin Park/Meteora/Faint.mp3"><a onclick="playMe('song_12_Faint.mp3_mp3/Linkin Park/Meteora/Faint.mp3')" href="#">Faint.mp3</a></li>
+			</ul>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+						  <td align="center"><a href="#" id="playListLink" onclick="javascript:playlistSlideUp()"><img src="../img/Playlist_button_slide_up.png" /></a></td>
+                         </tr>
+                    </table>
+                </div>
+                
+           </div>         
+        </div>
+</body>
+</html>

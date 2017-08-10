@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Toolbar with Menus</title>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/ext/ext-base.js"></script>
+
+ 	<!-- ENDLIBS -->
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-all.js"></script>
+<script type="text/javascript" src="playlistMenu.js"></script>
+<style type="text/css">
+	
+</style>
+<script type="text/javascript">
+	
+</script>
+</head>
+<body>
+
+<h1>Toolbar with Menus</h1>
+
+<p>The js is not minified so it is readable. See <a href="playlistMenu.js">playlistMenu.js</a>.</p>
+
+<div id="container">
+    <div id="toolbar"></div>
+</div>
+</body>
+</html>

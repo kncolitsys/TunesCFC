@@ -1,0 +1,57 @@
+<html lang="en">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <title>ExternalInterfaceExample</title>
+ <script language="JavaScript">
+     var jsReady = false;
+     function isReady() {
+         return jsReady;
+     }
+     function pageInit() {
+         jsReady = true;
+         document.forms["form1"].output.value += "\n" + "JavaScript is ready.\n";
+     }
+     function thisMovie(movieName) {
+         if (navigator.appName.indexOf("Microsoft") != -1) {
+             return window[movieName];
+         } else {
+             return document[movieName];
+         }
+     }
+     function setSongUrl(value) {
+         thisMovie("AudioPlayer").setSongUrl(value);
+     }
+     function sendToJavaScript(value) {
+         document.forms["form1"].output.value += "ActionScript says: " + value + "\n";
+     }
+	 function playSong(){
+	 	thisMovie("AudioPlayer").play();
+	 }
+ </script>
+ </head>
+ <body onload="pageInit();">
+ 	<div style="display:block;">
+     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+             id="AudioPlayer" width="1" height="1"
+             codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">
+         <param name="movie" value="AudioPlayer.swf" />
+         <param name="quality" value="high" />
+         <param name="bgcolor" value="#869ca7" />
+         <param name="allowScriptAccess" value="sameDomain" />
+		 
+         <embed src="AudioPlayer.swf" quality="high" bgcolor="#869ca7"
+             width="1" height="1" name="AudioPlayer" align="middle"
+             play="true" loop="false" quality="high" allowScriptAccess="sameDomain"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer">
+         </embed>
+     </object>
+ </div>
+     <form name="form1" onsubmit="return false;">
+         <input type="text" name="input" value="" />
+         <input type="button" value="Send" onclick="setSongUrl(this.form.input.value);" /><br />
+		 <input type="button" value="Play" onclick="playSong();" /><br />
+     </form>
+ 
+ </body>
+ </html>

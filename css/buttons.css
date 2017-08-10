@@ -1,0 +1,69 @@
+.addPlaylist {
+    background-image: url(../icons/page_add.png) !important;
+}
+
+.acceptButton {
+	
+    background-image: url(../icons/accept.png) !important;
+}
+.uploadPdfButton {
+    background-image: url(../icons/arrow_up.png) !important;
+}
+
+
+.addButton {
+    background-image: url(../icons/add.png) !important;
+}
+
+.heartAdd {
+    background-image: url(../icons/heart_add.png) !important;
+}
+.createGuitarChords {
+    background-image: url(../icons/asterisk_yellow.png) !important;
+}
+
+.topRated {
+    background-image: url(../icons/award_star_gold_1.png) !important;
+}
+.browse{
+	background-image: url(../icons/folder_page.png) !important;
+	
+}
+.recent{
+	background-image: url(../icons/wand.png) !important;
+	
+}
+.browseByGenre{
+	background-image: url(../icons/vector.png) !important;
+}
+.browseByMoods{
+	background-image: url(../icons/asterisk_orange.png) !important;
+}
+.browseByTags{
+	background-image: url(../icons/tag_blue.png) !important;
+}
+
+
+.cancelButton {
+    background-image: url(../icons/cancel.png) !important;
+}
+
+.playEntire {
+	background-image: url(../icons/arrow_right.png) !important;
+}
+.manageUser{
+	background-image: url(../icons/user.png) !important;
+}
+.musicButton{
+	background-image:url(../icons/music.png) !important;
+}
+.subscriptionButton1{
+	background-image:url(../icons/transmit.png) !important;
+}
+.manageIndex{
+	background-image:url(../icons/magnifier_zoom_in.png) !important;
+}
+
+.btn-panel td {
+    padding-left:5px;
+}

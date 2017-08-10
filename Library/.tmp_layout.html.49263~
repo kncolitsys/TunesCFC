@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/tabs.css" rel="stylesheet" type="text/css" />
+<link href="../css/component.css" rel="stylesheet" type="text/css" />
+<link href="../css/sideSlider.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/prototype.js"></script>
+<script type="text/javascript" src="../js/effects.js"></script>
+<script type="text/javascript" src="../js/side-bar.js"></script>
+<script type="text/javascript" src="../js/tabs.js"></script>
+</head>
+<body>
+	<table cellpadding="0" width="100%" cellspacing="0" border="0">
+    	<tr>
+        	<td class="mainBody" align="center">
+        		<table border="0" width="1011" cellpadding="0px" cellspacing="0px" align="center">
+                        <tr><td></td></tr>
+                        <tr>
+                            <td>
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td><div class="headerLogoContainer"><img  src="../img/logo.png"/></div></td>
+                                        <td class="headerContainerMain">
+                                            <div class="headerContainerMainDiv">	
+                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td class="headerSubContainerLeft"></td>
+                                                        <td class="headerSubContainerMain" valign="top">
+                                                            <!-- Main tabs will go here -->
+                                                          	 
+                                                            <table cellpadding="0" cellspacing="0" border="0" class="tabContainerTable">
+                                                             	<tr>
+                                                                	<td><div style="width:100px"></div></td>
+                                                                	<td><div class="tabButtonContainer"><img src="../img/button_home_up.png" /></div></td>
+                                                                    <td>
+                                                                    	<div id="tabContainerMusic" class="tabButtonContainer">
+                                                                        	<table cellpadding="0" cellspacing="0" border="0">
+                                                                            	<tr>
+                                                                                	<td><a href="#" class="linkImage" onclick="Effect.toggle('appearButtons','blind'); return false;">
+                                                                                    	<img src="../img/button_music_up.png"  style="float:left;" />
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                    	<div id="appearButtons" style="display:none;">
+                                                                                        	<div>
+                                                                                    			<div><img src="../img/buttonLibrary.png" /><img src="../img/buttonPlaylist.png" /></div>
+                                                                                             </div>   
+                                                                                        </div>
+                                                                                  </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td><div class="tabButtonContainer"><img src="../img/button_music_up.png" /></div></td>
+                                                                    <td><div class="tabButtonContainer"><img src="../img/button_music_up.png" /></div></td>
+                                                                    <td><div style="width:300px"></div></td>
+                                                                </tr>
+                                                             </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                             </div>
+                                        </td>
+                                        <td><div class="headerRightContainer"><img src="../img/headerSliceRight.png" /></div></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr><td height="8"></td></tr>
+                        <tr><td class="contentBodyTop"></td></tr>
+                        <tr><td class="contentBodyMain">
+
+                            <table align="center" class="genreButtonTable">
+                            	<tr>
+                                	<td ><a href="#"><div class="genreButtonUnselected">All</div></a></td><td class="genreButtonSelected"></td><td class="genreButtonUnselected"></td><td class="genreButtonUnselected"></td><td class="genreButtonUnselected"></td><td class="genreButtonUnselected"></td><td class="genreButtonUnselected"></td><td class="genreButtonUnselected"></td><td class="genreButtonUnselected"></td><td class="genreButtonUnselected"></td>
+                                </tr>
+                            </table>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                        </td></tr>
+                        <tr><td class="contentBodyBottom"></td></tr>
+                    </table> 
+        	</td>
+        </tr>                  
+     </table>     
+     
+         <div id="sideBar">
+            
+            <a href="#" id="sideBarTab"><img src="../images/slide-button.gif" alt="sideBar" title="sideBar" /></a>
+            
+            <div id="sideBarContents" style="display:none;">
+                <div id="sideBarContentsInner">
+                    <h2>side<span>bar</span></h2>
+                    
+                    <ul>
+                        <li><a href="#">Link One</a></li>
+                        <li><a href="#">Link Two</a></li>
+                        <li><a href="#">Link Three</a></li>
+                        <li><a href="#">Link Four</a></li>
+                        <li><a href="#">Link Five</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+     
+     
+     
+</body>
+</html>

@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color:#E3E3E3;
+}
+
+.header{
+	height:50px;
+	background-color:#06F;
+	
+}
+
+.mainBody{
+	border:#F00;
+	border-style:solid;
+	border-width:0px;
+	text-align:center;
+}
+
+.bodyContainer{
+	width:1024px;
+}
+
+.contentBodyTop{
+	width:1011px;
+	height:8px;
+	background:url(../img/bodyMainTopSlice.png);
+}
+
+.contentBodyMain{
+	width:1011px;
+	background-image:url(../img/contentBodyMainSlice.png);
+	background-repeat:repeat-y;
+}
+.contentBodyBottom{
+		width:1011px;
+		background-image:url(../img/contentBodyBottom.png);
+		height:7px;
+}
+.headerContainerMain{
+	height:86px;
+	width:884px;
+	background-image:url(../img/headerSlice1.png);
+	background-repeat:repeat-x;
+}
+
+.headerRightContainer{
+	height:86px;
+	float:right;
+	width:15px;
+}
+.headerLogoContainer{
+	width:112px;
+	height:86px;
+	float:left;
+}
+
+.headerContainerMainDiv{
+	height:86px;
+	float:right;
+}
+
+.headerSubContainerMain{
+	background-image:url(../img/headerSlice2.png);
+	background-repeat:repeat-x;
+	height:86px;
+}
+
+.headerSubContainerLeft{
+	background-image:url(../img/headerSliceSubContainerLeft.png);
+	background-repeat:no-repeat;
+	height:86px;
+	width:8px;
+}
+
+.cfDivMain{
+     min-height:600px;
+     height:auto !important;
+     height:600px;
+} 

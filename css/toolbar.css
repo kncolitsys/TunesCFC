@@ -1,0 +1,15 @@
+.toolbarMain{
+	background-image:url(../img/toolbarMain.png);
+	height:28px;
+	background-repeat:repeat-x;
+	width:764px;
+}
+
+#myPlaylistToolBar{
+	width:977px;
+	
+}
+
+.mainToolbar{
+	border:1px #B7BABC solid;
+}

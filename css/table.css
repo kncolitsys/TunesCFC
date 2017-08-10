@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hierarchyTable{
+	
+}
+
+.hierarchyTable a{
+	text-decoration:none;
+	font-size:11px;
+	color:#036;
+	text-align:left;
+}
+
+.hierarchyTable td{
+	text-align:left;
+	vertical-align:top;
+}
+
+.selectedLink{
+	font-weight:bold;
+}
+
+.detailsTable td{
+	font-size:11px;
+	text-align:left;
+	color:#036;
+	vertical-align:top;
+	padding:3px;
+}
+
+
+th{
+	font-size:13px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.detailsTable{
+}
+
+
+.mailTableDiv{
+	border: 1px solid #69c;
+	width: 940px;
+}
+
+
+.mailTable
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 940px;
+	text-align: left;
+	border: 0px solid #69c;
+	border-collapse: collapse;
+}
+.mailTable th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 5px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+	text-align:left;
+}
+.mailTable td
+{
+	padding: 5px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+
+.mailTable tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+.selRow{
+	background: #d0dafd;
+	color: #339;
+}
+
+
+

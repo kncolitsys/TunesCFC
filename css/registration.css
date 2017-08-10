@@ -1,0 +1,54 @@
+.formLabel {
+	font-weight:bold;
+	padding-top:3px;
+	text-align:right;
+	color:#505C6B;
+	font-size:11px;
+	font-family:arial,helvetica,verdana;
+}
+
+
+.formHelp {
+	padding-top:3px;
+	text-align:right;
+	width:150px;
+	color:#ADB7C0;
+	font-size:10px;
+	font-family:arial,helvetica,verdana;
+	text-align:left;
+}
+.inputText{
+	width:215px;
+}
+
+.optionText{
+	
+}
+
+
+#termsAndConditionText{
+	color:#505C6B;
+	font-size:11px;
+	font-family:arial,helvetica,verdana;
+}
+
+
+.errorInputText{
+	border-color:red;
+}
+
+.validationMessageError{
+	font-family:arial,helvetica,verdana;
+	color:red;
+	padding-left:20px;
+	font-size:12px;
+	background:url(../icons/exclamation.png) no-repeat 0 0px;
+}
+
+.validationMessageInfo{
+	color:blue;
+	padding-left:20px;
+	font-size:12px;
+	background:url(../icons/information.png) no-repeat 0 0px;
+	font-family:arial,helvetica,verdana;
+}
